@@ -1,0 +1,40 @@
+{
+  "challenge": "Tokenization",
+  "version": "1.0",
+  "startedAt": "2026-11-05T10:11:03Z",
+  "completedAt": "2026-11-05T10:46:03Z",
+  "currentCheckpoint": null,
+  "currentQuestion": 0,
+  "checkpoints": {
+    "erc721-imports": {
+      "status": "completed",
+      "completedAt": "2026-11-05T10:17:07Z",
+      "method": "answered"
+    },
+    "state-constructor": {
+      "status": "completed",
+      "completedAt": "2026-11-05T10:20:28Z",
+      "method": "answered"
+    },
+    "minting": {
+      "status": "completed",
+      "completedAt": "2026-11-05T10:22:27Z",
+      "method": "answered"
+    },
+    "overrides": {
+      "status": "completed",
+      "completedAt": "2026-11-05T10:26:03Z",
+      "method": "answered"
+    },
+    "gas-wallets": {
+      "status": "completed",
+      "completedAt": "2026-11-05T10:32:23Z",
+      "method": "answered"
+    },
+    "minting-exploring": {
+      "status": "completed",
+      "completedAt": "2026-11-05T10:46:03Z",
+      "method": "answered"
+    }
+  }
+}
