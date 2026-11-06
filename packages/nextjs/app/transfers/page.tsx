@@ -7,6 +7,8 @@ import { useTargetNetwork } from "~~/hooks/scaffold-eth";
 
 const Transfers: NextPage = () => {
   const { targetNetwork } = useTargetNetwork();
+  // Fine for this challenge's small testnet contract; a production app should read events from an indexer
+  // eslint-disable-next-line @typescript-eslint/no-deprecated
   const { data: transferEvents, isLoading } = useScaffoldEventHistory({
     contractName: "YourCollectible",
     eventName: "Transfer",
